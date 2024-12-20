@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        class student{
+            constructor(name,year){
+                this.name=name;
+                this.year=year;
+            }
+        }
+        var obj1=new student("Natasha",2012);
+        var obj2=new student("Jayden",2017);
+        document.getElementById("p1").innerHTML="my name is"+obj1.name;
+        document.getElementById("p2").innerHTML = "my name is" + obj2.name;
+    </script>
+</body>
+</html>
